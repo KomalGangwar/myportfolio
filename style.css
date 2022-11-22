@@ -1,142 +1,90 @@
-
-body{
-   background-color: rgb(7, 6, 21);
-   background-image: url(annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
- 
+.navbar{
+    display: flex;
+    color:rgb(24, 8, 39);
+    background-color: rgb(154, 211, 220);
+    height: 40px;
+    width:auto;
+    gap:1000px;
+    font-size:large;
 }
-h1{
-    color: rgb(183, 109, 210);
-} 
-h3{
- color: bisque;
-}
-h2{
- color: bisque;
-}
-ul{
- color: bisque;
+.nav{
+    text-align: right;
+    padding-right:10px;
+    gap:10px;
 }
 img{
     width: 350px;
     height: 350px;
     border-radius:50%;
     margin-left:500Px;
-    box-shadow: 6px 6px 6px 6px rgb(7, 6, 21);
+    box-shadow: 6px 6px 6px 6px rgb(97, 88, 103);
+}
+.about{
+    background-image:url(annie-spratt-6a3nqQ1YwBw-unsplash.jpg) ;
+}
+.skills h1{
+    margin-top: 50px;
+    margin-left: 600px;
+    color:rgb(190, 129, 196);
+}
+#c{
+
+    width: 350px;
+    height: 350px;
+    border-radius:50%;
+    margin-left:50Px;
+    box-shadow: 6px 6px 6px 6px rgb(142, 103, 176);
+}
+#js{
+    width: 350px;
+    height: 350px;
+    border-radius:50%;
+    margin-left:130Px;
+    box-shadow: 6px 6px 6px 6px white;
+}
+#java{
+    width: 350px;
+    height: 350px;
+    border-radius:50%;
+    margin-left:60Px;
+    box-shadow: 6px 6px 6px 6px rgb(114, 186, 202);
+
+}
+.skills h1{
+   padding:50px;
+  
 }
 .personal h1{
-     margin-top: 50px;
-     margin-left: 600px;
+    margin-top: 50px;
+    margin-left: 600px;
+    color:rgb(190, 129, 196);
 }
 .personal h2{
-   margin-top: 30px;
-   margin-left: 350px;
-   font-family: 'Arima', cursive; 
-   font-size: xx-large;
-   color: rgb(128, 153, 198);
+  margin-top: 30px;
+  margin-left: 350px;
+  font-family: 'Arima', cursive; 
+  font-size: xx-large;
+  color: rgb(128, 153, 198);
 }
 .personal h3{
-   margin-top: 0px;
-   margin-left: 600px;
-   font-family:  'Arima', cursive; 
-   font-size: xx-large;
-   color:  rgb(128, 153, 198);
+  margin-top: 0px;
+  margin-left: 600px;
+  font-family:  'Arima', cursive; 
+  font-size: xx-large;
+  color:  rgb(128, 153, 198);
 }
 .personal h4{
-   margin-top: 0px;
-   margin-left: 450px;
-   color: bisque;
-   font-family: 'Arima', cursive; 
-   font-size: x-large;
-  }
- #exam{
-     color: rgb(131, 213, 213);
-     margin-top: 45px;
-     margin-left:240px ;
+  margin-top: 0px;
+  margin-left: 450px;
+  color: bisque;
+  font-family: 'Arima', cursive; 
+  font-size: x-large;
  }
-.skills{
-    margin-top: 100px;
-    margin-left: 600px;
-}
-.image img{
-    height: 100%;
-    margin-left: 30px;
-    margin-top: 50px;
+ #exam{
+    color: rgb(131, 213, 213);
+    margin-top: 45px;
+    margin-left:240px ;
 }
 
-
-
-.container{ 
- margin:0px;
- padding:0px;
- display: flex;  
-justify-content: center;  
-align-items: center;  
-height: 100vh; 
-
-}
-.box{  
-width: 55px;  
-height: 58px;  
-position: relative;  
-display: flex;  
-align-items: center;  
-overflow: hidden;  
-padding: 5px;  
-cursor: pointer;  
-margin: 0.6em;  
-transition: all .4s;  
-}  
-.box:hover{  
-width: 160px;  
-background: #c32aa3;  
-border-radius: 10px;  
-color: white;  
-box-shadow: 0 0 50px #b315917c;  
-}  
-.box:nth-child(2):hover{  
-background: #1877f2;  
-box-shadow: 0 0 50px #1876f285;  
-}  
-.box:nth-child(3):hover{  
-width: 130px;  
-background: #1da1f2;  
-box-shadow: 0 0 50px #1da0f280;  
-}  
-.box:nth-child(4):hover{  
-background: #25d366;  
-box-shadow: 0 0 50px #25d3657e;  
-}  
-p{  
-transform: translate(60px);  
-}  
-.box .icon{  
-position: absolute;  
-width: 50px;  
-height: 50px;  
-display: flex;  
-justify-content: center;  
-align-items: center;  
-color: white;  
-border-radius: 10px;  
-margin-right: 10px;  
-transition: all .4s;  
-}  
-.instagram{  
-background: #c32aa3;  
-}  
-.telegram{  
-background: #1877f2;  
-}  
-.linkedin{  
-background: #1da1f2;  
-}  
-.whatsapp{  
-background: #25d366;  
-}  
-.box:hover .icon{  
-background: white;  
-box-shadow: 0 0 20px rgba(0, 0, 0, 0.26);  
-color: rgb(59, 59, 59); 
-}
 
 
